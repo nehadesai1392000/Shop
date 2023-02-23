@@ -1,0 +1,93 @@
+.SideBar-to-imgPic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    cursor: pointer;
+
+}
+
+.second-secParts img {
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    border: 0.2rem solid hsl(15,4%,82%);
+}
+.second-secParts :hover{
+    cursor: pointer;
+    border: 0.2rem solid hsl(26,100%,55%);
+}
+
+.cart-popup {
+    height: 159px;
+    width: 280px;
+    border-top: 1px solid #dadce0;
+}
+
+.cart-popup p {
+    font-weight: bold;
+    color: #6d6f70;
+}
+
+.cartPhoto {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.cartPhoto span {
+    margin-top: 10px;
+}
+
+.cartPhoto span p:first-child {
+    margin-bottom: 0 !important;
+}
+
+.cartPhoto span p:last-child {
+    margin-top: 0px;
+
+}
+
+.cartPhoto img {
+    height: 40px;
+    margin-top: 10px;
+    border-radius: 3px;
+
+
+}
+
+.cartPhoto button {
+    height: 20px;
+    border: none;
+    background-color: white;
+    font-size: 20px;
+    color: #6d6f70;
+    cursor: pointer;
+}
+
+.popButton {
+    display: flex;
+    justify-content: center;
+}
+
+.popButton button {
+    width: 250px;
+    height: 40px;
+    border: none;
+    background-color: hsl(26, 100%, 55%);
+    color: hsl(25, 100%, 94%);
+    border-radius: 5px;
+    margin-top: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.text_box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+

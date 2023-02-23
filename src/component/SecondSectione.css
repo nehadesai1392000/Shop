@@ -1,0 +1,87 @@
+.sneaker-company h5 {
+    color: rgb(255, 126, 27);
+}
+
+.sneaker-company p {
+    color: #97999d;
+}
+
+.sneaker-company h1{
+    font-size: 45px;
+}
+
+.dolor-sine-logo {
+    display: flex;
+    align-items: center;
+    gap: 17px;
+}
+
+.only-one-reject-btn h6 {
+    color: #97999d;
+    text-decoration: line-through;
+    margin-top: -15px;
+}
+
+.discount-btn button {
+    color: rgb(255, 126, 27);;
+    background-color: hsl(25, 100%, 94%);
+    border: none;
+    font-weight: bold;
+    border-radius: 4px;
+    outline: none;
+ 
+}
+
+.incdinAndCart-sec {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.lastTo-incurs-btn button {
+    width: 64px;
+    height: 55px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(255, 126, 27);;
+    font-weight: bold;
+    background-color: hsl(223, 64%, 98%);
+    font-size: 22px;
+    outline: none;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 26px;
+     padding-bottom: 2px;
+}
+
+.lastTo-incurs-btn {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    height: 54px;
+    background-color: hsl(223, 64%, 98%);
+    border: none;
+    border-radius: 10px;
+    outline: none;
+}
+.cart-secBtn button {
+    width: 230px;
+    height: 55px;
+    color: hsl(25, 100%, 94%);
+    background-color: hsl(26, 100%, 55%);
+    border-radius: 8px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: .025em;
+    --tw-shadow: 0 20px 20px -10px #ffb780;
+    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
+}
+
+.cart-secBtn button:hover{
+    background-color: hsl(26, 80%, 65%);
+  
+}
